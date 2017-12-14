@@ -1,0 +1,124 @@
+.container1 {
+  width: 100%;
+  overflow: scroll;
+  text-align: center;
+  overflow-y: hidden !important;
+}
+
+#nav {
+  position: fixed;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 1;
+  background-color: #4DB1A2;
+}
+
+.notnav {
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 11px;
+}
+.navbuttons2{
+  display: block;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-top: 4px;
+}
+
+.navbuttons {
+   transition: all .2s ease-in-out;
+   padding: 4px;
+ }
+
+ .currentpage {
+   padding: 5px;
+ }
+
+.navbuttons:hover {
+  transform: scale(1.5);
+}
+
+h1 {
+  margin-top: 450px;
+}
+
+ h1, h2 {
+   font-family: 'Khula', sans-serif;
+   font-weight: lighter;
+   font-size: 18px;
+   margin-top: 5px;
+   text-align: center;
+   color: gray;
+ }
+
+ #search {
+   width: 60%;
+   float: left;
+   padding: 10px 15px;
+   margin-left: 10px;
+
+ }
+
+ #filters {
+   width: 70px;
+   float: right;
+   padding: 25px;
+   margin-top: 5px;
+   margin-right: 5px;
+ }
+
+ #columns {
+   clear: both;
+   column-count: 2;
+   column-gap: 7px;
+   column-fill: auto;
+   color: #666666;
+   margin-right: 10px;
+   margin-top: 10px;
+ }
+
+ .pin {
+ 	display: inline-block;
+ 	background: #FFFFFF;
+ 	margin: 0 2px 10px;
+ 	padding: 8px;
+ 	padding-bottom: 5px;
+   border-radius: 7px;
+   font-family: 'Nunito', sans-serif;
+ }
+
+ .challenges {
+   width: 120px;
+   position: relative;
+ }
+
+ #challenge1 {
+   top: 140px;
+ }
+
+ #challenge2 {
+   top: 265px;
+ }
+
+ #challenge3 {
+   top: 415px;
+ }
+
+ #challenge4 {
+   top: 145px;
+ }
+
+ #challenge5 {
+   top: 285px;
+ }
+
+p {
+  position: absolute;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 120px;
+  text-transform: uppercase;
+  font-weight: 800;
+}

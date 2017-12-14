@@ -1,0 +1,97 @@
+.container1 {
+  width: 100%;
+  overflow: scroll;
+}
+
+#nav {
+  position: fixed;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #4DB1A2;
+  text-align: center;
+}
+
+.notnav {
+  margin-top: 90px;
+}
+.navbuttons2{
+  display: block;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-top: 4px;
+}
+
+.navbuttons {
+   transition: all .2s ease-in-out;
+   padding: 4px;
+ }
+
+ .currentpage {
+   padding: 5px;
+ }
+
+.navbuttons:hover {
+  transform: scale(1.5);
+}
+
+ h1, h2 {
+   font-family: 'Khula', sans-serif;
+   font-weight: lighter;
+   font-size: 18px;
+   margin-top: 5px;
+   text-align: center;
+   color: gray;
+ }
+
+.backarrow {
+  margin-right: 5px;
+  color: gray;
+}
+#backlink {
+  color: gray;
+  }
+
+.frustrated {
+  border: 4px solid #91DEFF;
+  border-radius: 7px;
+  height: 150px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  padding-top: 25px;
+  text-align: center;
+}
+.profilepic {
+  text-align: left;
+  float: left;
+}
+.profileinfo {
+  text-align: left;
+}
+
+.heart {
+  margin-left: 20px;
+}
+.username {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 11px;
+  color: #666666;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 0;
+}
+
+textarea {
+  width: 80%;
+  height: 35px;
+  float: left;
+  margin-top: 8px;
+}
+.comment1 {
+  margin-top: 40px;
+}
+.comment {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  padding-top: 0px;
+}
